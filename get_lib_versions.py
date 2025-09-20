@@ -2,7 +2,8 @@ import importlib.metadata
 packages = [
     "langchain",
     "langchain_core",
-    "python-dotenv"
+    "python-dotenv",
+    "streamlit"
 ]
 for pkg in packages:
     try:
